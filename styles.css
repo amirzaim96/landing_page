@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+   
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    background-color: #C2D9FF;
+    margin: 0px;
+    font-size: larger;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+
+.right{
+    display: flex;
+    margin-right: 10px;
+    gap: 16px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 15px 0px;
+
+}
+
+.title {
+    font-size: x-large;
+}
+
+.straigt {
+    display: flex;
+}
+
+.seperate {
+    padding: 16px;
+    margin: 16px;
+    width: 500px;
+    flex-grow: 2;
+}
