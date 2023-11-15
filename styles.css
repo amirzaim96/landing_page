@@ -43,7 +43,7 @@ body {
 
 .title {
     font-size: x-large;
-    margin-top: 20px ;
+    margin-top: 20px;
 }
 
 .straigt {
@@ -59,4 +59,21 @@ body {
     margin: 0px;
     width: 500px;
     flex-grow: 2;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(237, 56, 58, 0.91);
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    margin: 10px;
 }
