@@ -2,7 +2,9 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    min-height: 100vh;
     background-image: url(./images/background/background.jpg);
+
 }
 
 .header {
@@ -10,11 +12,11 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 72px;
-    background-color: #C2D9FF;
-    margin: 0px;
+    background: #C2D9FF;
     font-size: larger;
     font-weight: 600;
     font-family: 'Lato', sans-serif;
+   
 }
 
 .right{
@@ -23,9 +25,13 @@ body {
     gap: 16px;
 }
 
+.name {
+    margin-left: 100px;
+}
+
 .intro {
     display: flex;
-    background-color: rgba(237, 56, 58, 0.91);
+    background: rgba(237, 56, 58, 0.91);
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -66,7 +72,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(237, 56, 58, 0.91);
+    background: rgba(237, 56, 58, 0.91);
+    
 }
 
 .info {
@@ -76,4 +83,28 @@ body {
     text-align: center;
     gap: 50px;
     margin: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #C2D9FF;
+    margin: 0px;
+    font-size: xx-small;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
 }
